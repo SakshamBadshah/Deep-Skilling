@@ -20,13 +20,13 @@ public class Product {
     }
 }
 
-class EcommerceSearch {
+public class EcommerceSearch {
 
     // Linear Search by product name
     public static Product linearSearch(Product[] products, String searchName) {
-        for (int i = 0; i < products.length; i++) {
-            if (products[i].productName.equalsIgnoreCase(searchName)) {
-                return products[i];
+        for (Product product : products) {
+            if (product.productName.equalsIgnoreCase(searchName)) {
+                return product;
             }
         }
         return null;
