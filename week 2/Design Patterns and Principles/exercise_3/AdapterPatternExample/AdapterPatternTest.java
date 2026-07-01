@@ -18,12 +18,24 @@ public class AdapterPatternTest {
 
 interface PaymentProcessor {
     void processPayment(int amount);
+
+    void processPayment(double amount);
 }
 
 class PayPalGateway implements PaymentProcessor {
     @Override
     public void processPayment(int amount) {
         System.out.println("Processed payment of " + amount + " via PayPal.");
+    }
+
+    public void sendPayment(int amount) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sendPayment'");
+    }
+
+    @Override
+    public void processPayment(double amount) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
 
@@ -44,6 +56,11 @@ class StripeAdapter implements PaymentProcessor {
     public void processPayment(int amount) {
         stripeGateway.makePayment(amount);
     }
+
+    @Override
+    public void processPayment(double amount) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
 
 class RazorpayGateway {
@@ -62,5 +79,10 @@ class RazorpayAdapter implements PaymentProcessor {
     @Override
     public void processPayment(int amount) {
         razorpayGateway.sendPayment(amount);
+    }
+
+    @Override
+    public void processPayment(double amount) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
