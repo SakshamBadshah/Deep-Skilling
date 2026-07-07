@@ -1,0 +1,6 @@
+/**
+ * TestCase
+ */
+public class TestCase {
+
+}
