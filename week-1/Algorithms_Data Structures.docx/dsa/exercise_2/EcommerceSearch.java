@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Product {
+class Product {
     int productId;
     String productName;
     String category;
