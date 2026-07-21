@@ -1,3 +1,0 @@
-interface ExternalAPI {
-    String getData();
-}

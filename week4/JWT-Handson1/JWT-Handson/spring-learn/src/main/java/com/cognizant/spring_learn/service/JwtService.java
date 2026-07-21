@@ -1,41 +1,22 @@
 package com.cognizant.spring_learn.service;
 
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.security.Keys;
+import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
-
-// Note: Add jjwt dependency to pom.xml:
-// <dependency>
-//     <groupId>io.jsonwebtoken</groupId>
-//     <artifactId>jjwt-api</artifactId>
-//     <version>0.12.3</version>
-// </dependency>
-// <dependency>
-//     <groupId>io.jsonwebtoken</groupId>
-//     <artifactId>jjwt-impl</artifactId>
-//     <version>0.12.3</version>
-//     <scope>runtime</scope>
-// </dependency>
-// <dependency>
-//     <groupId>io.jsonwebtoken</groupId>
-//     <artifactId>jjwt-jackson</artifactId>
-//     <version>0.12.3</version>
-//     <scope>runtime</scope>
-// </dependency>
-
-
+@Service
 public class JwtService {
 
     private static final String SECRET_KEY =
             "ThisIsMyVerySecureJWTSecretKeyForSpringLearnApplication123456789";
 
     private final SecretKey key =
-            new SecretKeySpec(
-                    SECRET_KEY.getBytes(StandardCharsets.UTF_8),
-                    "HmacSHA256"
+            Keys.hmacShaKeyFor(
+                    SECRET_KEY.getBytes(StandardCharsets.UTF_8)
             );
 
     public String generateToken(String username) {
@@ -45,10 +26,12 @@ public class JwtService {
 
         long expirationTime =
                 currentTime + (20 * 60 * 1000);
-        return null;
 
-        
-              
+        return Jwts.builder()
+                .subject(username)
+                .issuedAt(new Date(currentTime))
+                .expiration(new Date(expirationTime))
+                .signWith(key)
+                .compact();
     }
 }
-  

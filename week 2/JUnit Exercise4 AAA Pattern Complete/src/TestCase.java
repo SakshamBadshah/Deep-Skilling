@@ -1,6 +1,0 @@
-/**
- * TestCase
- */
-public class TestCase {
-
-}

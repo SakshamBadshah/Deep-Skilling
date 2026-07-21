@@ -4,57 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="SpringRest Using SpringBoot3 exercise2 Complete">
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/src/main/java/com/cognizant/spring_learn/SpringLearnApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/src/main/java/com/cognizant/spring_learn/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/02_Hello_World_RESTful_Web_Service/spring-learn/src/test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/output/Chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/output/Postman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/02_Spring-Rest-Handson/output/terminal.png" afterDir="false" />
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Files Move">
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/test/java/com/cognizant/account/AccountApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/controller/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/model/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/test/java/com/cognizant/loan/LoanApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/src/main/java/com/cognizant/spring_learn/SpringLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/src/main/java/com/cognizant/spring_learn/SpringLearnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/01_spring-rest-handson/spring-learn/src/test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/01_Create_a_Spring_Web_Project_Using_Maven/spring-learn/src/test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/01_SpringRest_Using_SpringBoot3/Output/output.png" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest-handson/Output/output.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/src/main/java/com/cognizant/spring_learn/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/src/main/java/com/cognizant/spring_learn/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/src/main/java/com/cognizant/spring_learn/SpringLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/src/main/java/com/cognizant/spring_learn/SpringLearnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/src/main/resources/Country.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/src/main/resources/Country.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/02_spring-rest-handson/spring-learn/src/test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/01_Spring_Core – Load_Country_from_Spring_Configuration_XML/spring-learn/src/test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/02_Spring_Core – Load_Country_from_Spring_Configuration_XML/output/output.png" beforeDir="false" afterPath="$PROJECT_DIR$/week4/01_Spring_Rest_Handson/output/output.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +136,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/downloads/cognizant/week4/02_Hello_World_RESTful_Web_Service/output",
+    "last_opened_file_path": "D:/downloads/cognizant/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -174,18 +147,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\downloads\cognizant\week4\02_Hello_World_RESTful_Web_Service\output" />
-      <recent name="D:\downloads\cognizant\week4\02_Hello_World_RESTful_Web_Service" />
-      <recent name="D:\downloads\cognizant\week4\02_Spring_Core – Load_Country_from_Spring_Configuration_XML" />
-      <recent name="D:\downloads\cognizant\week4\02_Spring_Core – Load_Country_from_Spring_Configuration_XML\output" />
-      <recent name="D:\downloads\cognizant\week4\SpringRest_Using_SpringBoot3\Output" />
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\Creating Microservices for account and loan" />
+      <recent name="D:\downloads\cognizant\week5" />
+      <recent name="D:\downloads\cognizant\week4\02_Spring_rest_Handson\output" />
+      <recent name="D:\downloads\cognizant\week4\02_Spring_rest_Handson" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\JWT-Handson1" />
+      <recent name="D:\downloads\cognizant\week4" />
       <recent name="D:\downloads\cognizant\week4\01_Spring_Rest-handson" />
       <recent name="D:\downloads\cognizant\week4\SpringRest_Using_SpringBoot3" />
-      <recent name="D:\downloads\cognizant\week3\Spring-data-jpa-handson" />
-      <recent name="D:\downloads\cognizant\week3\Spring_Core_and_Maven" />
-      <recent name="D:\downloads\cognizant\week3\Mockito\02_Verifying Interactions" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,8 +180,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -227,7 +200,12 @@
       <workItem from="1783495147212" duration="720000" />
       <workItem from="1783629281330" duration="338000" />
       <workItem from="1783750545716" duration="374000" />
-      <workItem from="1783873970037" duration="1001000" />
+      <workItem from="1783873970037" duration="1088000" />
+      <workItem from="1784099302287" duration="334000" />
+      <workItem from="1784135646441" duration="418000" />
+      <workItem from="1784452312715" duration="302000" />
+      <workItem from="1784550429752" duration="750000" />
+      <workItem from="1784560032222" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -333,7 +311,63 @@
       <option name="project" value="LOCAL" />
       <updated>1783750862390</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson) Complete">
+      <option name="closed" value="true" />
+      <created>1783875035496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1783875035498</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02_Rest_Country_Web_Services) Complete">
+      <option name="closed" value="true" />
+      <created>1784099605503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1784099605503</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete">
+      <option name="closed" value="true" />
+      <created>1784135872911</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784135872928</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete">
+      <option name="closed" value="true" />
+      <created>1784452450799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452450799</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete">
+      <option name="closed" value="true" />
+      <created>1784452541245</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452541246</updated>
+    </task>
+    <task id="LOCAL-00019" summary="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete">
+      <option name="closed" value="true" />
+      <created>1784452571967</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452571967</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Files Move">
+      <option name="closed" value="true" />
+      <created>1784550578495</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1784550578495</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +396,11 @@
     <MESSAGE value="commit" />
     <MESSAGE value="SpringRest Using SpringBoot3 exercise1 Complete" />
     <MESSAGE value="SpringRest Using SpringBoot3 exercise2 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringRest Using SpringBoot3 exercise2 Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02_Rest_Country_Web_Services) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete" />
+    <MESSAGE value="Files Move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files Move" />
   </component>
 </project>
